@@ -1,4 +1,4 @@
-// given this For loop, do the same with a WHILE loop
+// Given this For loop, do the same with a WHILE loop
 
 for (let i = 0; i < 5; i++) {
     console.log("El valor de i es: " + i);
