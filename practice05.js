@@ -5,9 +5,9 @@ var myObject = {1:1, 2:"auto", 3:true, 4:3.2};
 var theKeys = Object.keys(myObject);
 var theValues = Object.values(myObject);
 
-function troughObject(myObject){
-    for (var i=0; i < myObject.length; i++){
-        console.log(myObject[i]);
+function troughObject(theObject){
+    for (var i=0; i < theObject.length; i++){
+        console.log(theObject[i]);
     }
 }
 
