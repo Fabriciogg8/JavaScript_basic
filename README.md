@@ -50,7 +50,7 @@ Vamos a utilizar la función para obtener los valores de los input y de esta man
 
 La manera en como funciona es que primero debemos de seleccionar que elemento es al que queremos agregarle la propiedad. Al seleccionar el elemento le agregamos **addEventListener**. Luego entre parentesis debemos que colocar cual es el evento que estaremos 'escuchando', y seguido el nombre de la función. Algo importante es que el nombre de la función no lleva los parentesis que se colocan siempre que invocamos una función. Porque si lo hicieramos se ejecutaria dos veces la misma función. 
 
-Luego vamos agregar la etiqueta <form> y colocar los <input> dentro de esta. Vamos agregar un evento cuando se envie el formulario. El problema que se nos genera es que al enviarse el formulario no podemos ver el contenido de la suma en el html, ya que al enviarse el formulario se recarga la página. 
+Luego vamos agregar la etiqueta form y colocar los input dentro de esta. Vamos agregar un evento cuando se envie el formulario. El problema que se nos genera es que al enviarse el formulario no podemos ver el contenido de la suma en el html, ya que al enviarse el formulario se recarga la página. 
 
 Para solucionar esto, sabemos que a la función le podemos pasar el evento como parámetro. Este argumento tiene varias propiedades entre las cuales existe **preventDefault**. Esta propiedad al llamarla lo que nos hace es prevenir de ejecutar lo que haría al ocurrir el evento, por lo tanto no se recarga la página. 
 
